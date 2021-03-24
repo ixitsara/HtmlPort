@@ -495,9 +495,10 @@ html {
         list-style: none;
     }
     .format {
-        max-width: 1400px;
-        padding: 0 px;
+        max-width: 1300px;
+        padding: 0px;
     }
+    
     .texassing {
         margin-left: -30px;
         margin-right: -70px;
