@@ -1,0 +1,30 @@
+body {
+    background-color: #FFBC63;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#header {
+    grid-column: 1 / span 3;
+    background-color: #5c9dfd;
+    color: #000000;
+    margin: auto;
+    width: 650px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#mid {
+    padding: 50px;
+    grid-column: 2/ span 1;
+    background-color: rgba(61, 39, 39, 0);
+}
